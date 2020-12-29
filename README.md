@@ -1,7 +1,9 @@
-Simple implementation of Rock-paper-scissors game. 
+# Rock-Paper-Scissors
 
-What I've learned from this project:
+**Simple implementation of Rock-paper-scissors game.**
 
-Learned how the DOM works.
-Deepened knowledge of how functions work with each other. 
+**What I've learned from this project:**
+
+*Learned how the DOM works.
+*Deepened knowledge of how functions work with each other. 
 
