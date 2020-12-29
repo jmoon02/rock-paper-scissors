@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px;
+}
+
+.scoreboard {
+    border: 3px solid;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    font-size: 46px;
+    padding: 15px 20px;
+}
+
+.label {
+    
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 2px 10px;
+}
+
+#user_label {
+    position: absolute;
+    top: 30px;
+    left: 2px;
+}
+
+#com_label {
+    position: absolute;
+    top: 30px;
+    right: 1px;
+}
+
+
+.choice {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.user_choice {
+    margin: 0 30px;
+    font-size: 60px;
+    border: 3px solid;
+    padding: 20px;
+    transition: all 0.2s ease;
+}
+
+.user_choice:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.user_choice:active{
+    transform: scale(1.1);
+}
+
+.message {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.result {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
